@@ -2,7 +2,7 @@
   <tr>
     <td>
 
-### 👋 Hi, I'm Heruyi
+## 👋 Hi, I'm Heruyi
 
 > A passionate developer who loves Java and is learning full-stack step by step.
 
@@ -25,7 +25,7 @@
 
 ---
 
-## Skill
+## ⚙️ Skill
 <p align="center">
 <img src="https://skillicons.dev/icons?i=spring,mysql,redis,vue,elasticsearch,linux,docker,git,java,python,vim,idea,pycharm" />
 </p>
@@ -55,10 +55,7 @@
 
 ---
 
-## ✍️ 我的 CSDN 博客数据
-<img src="https://stats.justsong.cn/api/csdn?id=qq_52227892" />
-
-### 🧠 Motto
+## 🐍 Calendar
 
 ![GitHub Snake Light](https://github.com/He-ry/He-ry/blob/output/github-contribution-grid-snake.svg#gh-light-mode-only)
 ![GitHub Snake Dark](https://github.com/He-ry/He-ry/blob/output/github-contribution-grid-snake-dark.svg#gh-dark-mode-only)
