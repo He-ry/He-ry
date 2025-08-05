@@ -11,7 +11,7 @@
 - 📫 I'm always open to collaboration and learning
     </td>
     <td style="vertical-align: bottom;">
-      <img src="./gif/keyword.gif" alt="Heruyi" />
+      <img src="https://github.com/He-ry/He-ry/blob/main/gif/keyword.gif" alt="Heruyi" />
     </td>
   </tr>
 </table>
