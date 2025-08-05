@@ -1,3 +1,6 @@
+<table>
+  <tr>
+    <td style="vertical-align: top; padding-right: 20px;">
 # 👋 Hi, I'm Heruyi
 
 > A passionate developer who loves Java and is learning full-stack step by step.
@@ -6,6 +9,13 @@
 - 🌱 Exploring new tech: Spring Cloud, Elasticsearch, RabbitMQ
 - 💬 Ask me about Java, backend development, or anything you're curious about
 - 📫 I'm always open to collaboration and learning
+    </td>
+    <td style="vertical-align: bottom;">
+      <img src="./gif/keyword.gif" alt="Heruyi" />
+    </td>
+  </tr>
+</table>
+
 
 ---
 
