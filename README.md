@@ -1,22 +1,27 @@
-<table>
+<table border="0">
   <tr>
-    <td style="vertical-align: top; padding-right: 20px;">
-      <h1>👋 Hi, I'm Heruyi</h1>
-      <blockquote>
-        A passionate developer who loves Java and is learning full-stack step by step.
-      </blockquote>
-      <ul>
-        <li>🔭 Currently working on Spring Boot, Docker, Vue</li>
-        <li>🌱 Exploring new tech: Spring Cloud, Elasticsearch, RabbitMQ</li>
-        <li>💬 Ask me about Java, backend development, or anything you're curious about</li>
-        <li>📫 I'm always open to collaboration and learning</li>
-      </ul>
+    <td>
+
+### 👋 Hi, I'm Heruyi
+
+> A passionate developer who loves Java and is learning full-stack step by step.
+
+- 🔭 Currently working on Spring Boot, Docker, Vue  
+- 🌱 Exploring new tech: Spring Cloud, Elasticsearch, RabbitMQ  
+- 💬 Ask me about Java, backend development, or anything you're curious about  
+- 📫 I'm always open to collaboration and learning
+
     </td>
-    <td style="vertical-align: bottom;">
-      <img src="https://github.com/He-ry/He-ry/blob/main/gif/keyword.gif" alt="Heruyi" />
-    </td>
+    <td>
+
+<br/><br/> 
+<img src="https://github.com/He-ry/He-ry/blob/main/gif/keyword.gif" width="360" />
+
   </tr>
 </table>
+
+
+
 
 ---
 
