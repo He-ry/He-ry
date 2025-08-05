@@ -20,6 +20,16 @@
 
 ---
 
+## Skill
+<p align="center">
+<img src="https://skillicons.dev/icons?i=spring,mysql,redis,vue,elasticsearch,linux,docker,git,java,python,vim,idea,pycharm" />
+</p>
+<p align="center">
+<img src="https://komarev.com/ghpvc/?username=He-ry&abbreviated=true&color=red" />
+<a href="https://github.com/He-ry"><img src="https://img.shields.io/badge/GitHub-Hery-black?logo=github" /></a>
+<a href="https://blog.csdn.net/qq_52227892"><img src="https://img.shields.io/badge/CSDN-原首-red" /></a>
+<img href="mailto:508816739@qq.com" src="https://img.shields.io/badge/508816739@qq.com-0A74DA?logo=qq&logoColor=white" />
+</p>
 
 ## 📈 GitHub Stats
 
