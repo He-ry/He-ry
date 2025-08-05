@@ -30,6 +30,9 @@
 <img src="https://skillicons.dev/icons?i=spring,mysql,redis,vue,elasticsearch,linux,docker,git,java,python,vim,idea,pycharm" />
 </p>
 <p align="center">
+<a href="https://blog.csdn.net/qq_52227892">
+    <img src="https://img.shields.io/badge/CSDN Page View-112K-E65A65.svg" alt="" title="原首的csdn" />
+</a>
 <img src="https://komarev.com/ghpvc/?username=He-ry&abbreviated=true&color=red" />
 <a href="https://github.com/He-ry"><img src="https://img.shields.io/badge/GitHub-Hery-black?logo=github" /></a>
 <a href="https://blog.csdn.net/qq_52227892"><img src="https://img.shields.io/badge/CSDN-原首-red" /></a>
