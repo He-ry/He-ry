@@ -40,13 +40,10 @@
 </p>
 
 ## 📈 GitHub Stats
-​<div align="center">
+​<p align="left">
 ​ <img height="137px" src="https://github-readme-stats.vercel.app/api?username=He-ry&show_icons=true&theme=default&cache_seconds=1" />
 ​ <img height="137px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=He-ry&layout=compact&theme=default&cache_seconds=1" />
-​</div>
-
-
-
+​</p>
 ---
 
 ![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=He-ry&theme=github-compact&area=true)
