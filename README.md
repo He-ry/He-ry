@@ -41,7 +41,7 @@
 
 ## 📈 GitHub Stats
 
-<div style="display: flex; width: 60%; gap: 10px; align-items: stretch; justify-content: center;">
+<div style="display: flex; width: 100%; gap: 10px; align-items: stretch; justify-content: center;">
   <img src="https://github-readme-stats.vercel.app/api?username=He-ry&show_icons=true&theme=default&cache_seconds=1"
        style="flex: 1; height: 200px; object-fit: contain;" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=He-ry&layout=compact&theme=default&cache_seconds=1"
