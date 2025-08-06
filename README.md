@@ -15,7 +15,7 @@
     <td>
 
 <br/><br/> <br/><br/> 
-<img src="https://github.com/He-ry/He-ry/blob/main/gif/keyword.gif" width="360" />
+<img src="https://ghfast.top/https://raw.githubusercontent.com/He-ry/He-ry/main/gif/keyword.gif" width="360" />
 
   </tr>
 </table>
