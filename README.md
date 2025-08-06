@@ -27,7 +27,7 @@
 
 ## ⚙️ Skill
 <p align="center">
-<img src="https://skillicons.dev/icons?i=java,python,spring,mysql,redis,elasticsearch,nginx,anaconda,maven,linux,docker,git,vim,idea,pycharm"/>  
+<img src="https://skillicons.dev/icons?i=java,python,spring,fastapi,mysql,redis,elasticsearch,nginx,anaconda,maven,linux,docker,git,vim,nginx"/>
 </p>
 <p align="center">
 <a href="https://blog.csdn.net/qq_52227892">
