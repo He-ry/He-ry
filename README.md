@@ -55,8 +55,8 @@
 ![GitHub Snake Light](https://github.com/He-ry/He-ry/blob/output/github-contribution-grid-snake.svg#gh-light-mode-only)
 ![GitHub Snake Dark](https://github.com/He-ry/He-ry/blob/output/github-contribution-grid-snake-dark.svg#gh-dark-mode-only)
 
+<!-- ![Full Year Calendar](https://github.com/He-ry/He-ry/blob/main/dist/metrics.plugin.isocalendar.fullyear.svg) -->
 
-![Full Year Calendar](https://github.com/He-ry/He-ry/blob/main/dist/metrics.plugin.isocalendar.fullyear.svg)
 
 > "Keep learning and coding. Great things take time."
 
