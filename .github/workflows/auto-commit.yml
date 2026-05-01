@@ -1,0 +1,46 @@
+name: Auto Commit
+
+on:
+  schedule:
+    # UTC 时间，每天随机触发多次
+    # 中国时间 = UTC + 8
+    - cron: '23 2 * * *'    # 10:23
+    - cron: '47 5 * * *'    # 13:47
+    - cron: '15 9 * * *'    # 17:15
+    - cron: '38 11 * * *'   # 19:38
+    - cron: '5 14 * * *'    # 22:05
+  workflow_dispatch:         # 允许手动触发测试
+
+jobs:
+  commit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Auto commit
+        run: |
+          # --- 配置 git 身份 ---
+          git config user.name "He-ry"
+          git config user.email "He-ry@users.noreply.github.com"
+
+          # --- 追加一条记录到 log 文件 ---
+          mkdir -p log
+          FILE="log/$(date -u +%Y-%m-%d).md"
+
+          if [ ! -f "$FILE" ]; then
+            echo "# $(date -u +%Y-%m-%d)" > "$FILE"
+            echo "" >> "$FILE"
+          fi
+
+          echo "- $(date -u +%H:%M:%S) — keep going." >> "$FILE"
+
+          # --- 随机决定今天提交次数（1~3）---
+          # actions 每个 cron 时间点触发一次，所以每次就是 1 commit
+          # 想要一天多条，就多加几行 cron
+          git add "$FILE"
+          git commit -m "log: $(date -u +%Y-%m-%d) $(date -u +%H:%M)"
+
+      - name: Push
+        run: git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
