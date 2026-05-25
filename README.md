@@ -2,7 +2,7 @@
   <tr>
     <td>
 
-## 👋 Hi, I'm Heruyi
+## 👋 Hi
 
 > A passionate developer who loves Java and is learning full-stack step by step.
 
