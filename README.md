@@ -41,9 +41,5 @@
 
 ---
 
-![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=He-ry&theme=github-compact&area=true)
-
----
-
 > "Keep learning and coding. Great things take time."
 
