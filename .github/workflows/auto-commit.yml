@@ -2,9 +2,9 @@ name: Auto Commit
 
 on:
   schedule:
-    # UTC 时间，每天随机触发多次
+    # UTC 时间，每天执行一次
     # 中国时间 = UTC + 8
-    - cron: '23 2 * * *'    # 10:23
+    - cron: '23 2 * * *'    # 中国时间 10:23
   workflow_dispatch:         # 允许手动触发测试
 
 jobs:
@@ -15,6 +15,18 @@ jobs:
 
       - name: Auto commit
         run: |
+          # --- 随机决定今天是否提交 ---
+          # 0 = 今天不提交
+          # 1 = 今天提交一次
+          SHOULD_COMMIT=$((RANDOM % 2))
+
+          echo "Today's random result: $SHOULD_COMMIT"
+
+          if [ "$SHOULD_COMMIT" -eq 0 ]; then
+            echo "今天随机结果为 0，不提交。"
+            exit 0
+          fi
+
           # --- 配置 git 身份 ---
           git config user.name "He-ry"
           git config user.email "He-ry@users.noreply.github.com"
@@ -30,9 +42,7 @@ jobs:
 
           echo "- $(date -u +%H:%M:%S) — keep going." >> "$FILE"
 
-          # --- 随机决定今天提交次数（1~3）---
-          # actions 每个 cron 时间点触发一次，所以每次就是 1 commit
-          # 想要一天多条，就多加几行 cron
+          # --- 提交 ---
           git add "$FILE"
           git commit -m "log: $(date -u +%Y-%m-%d) $(date -u +%H:%M)"
 
@@ -40,3 +50,4 @@ jobs:
         run: git push
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+```
